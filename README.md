@@ -1,4 +1,4 @@
-##Demo Model pipeline dùng pyspark
+## Demo Model pipeline dùng pyspark
 - Tập dữ liệu đã sử dụng: 
 https://www.kaggle.com/code/miquar/explore-flights-csv-airports-csv-airlines-csv/input?select=flights.csv
 - Tổng quan về tập dữ liệu:
