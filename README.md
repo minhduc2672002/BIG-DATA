@@ -38,3 +38,5 @@ Thông tin về số chuyến bay đúng giờ, bị chậm, bị hủy và chuy
 *	LATE_AIRCRAFT_DELAY: string (nullable = true): Trễ vì phi cơ.
 *	WEATHER_DELAY: string (nullable = true): Trễ vì thời tiết.
 •	HOUR_ARR: double (nullable = true): Số h di chuyển.
+
+
