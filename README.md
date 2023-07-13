@@ -197,7 +197,7 @@ flights = flights.withColumn('HOUR_ARR', flights.AIR_TIME/60)
 flights.printSchema()
 ```
 
-   root
+    root
      |-- YEAR: string (nullable = true)
      |-- MONTH: string (nullable = true)
      |-- DAY: string (nullable = true)
@@ -245,7 +245,7 @@ avg_speed.printSchema()
 avg_speed.show(5)
 ```
 
-   root
+    root
      |-- ORIGIN_AIRPORT: string (nullable = true)
      |-- DESTINATION_AIRPORT: string (nullable = true)
      |-- TAIL_NUMBER: string (nullable = true)
@@ -270,7 +270,7 @@ avg_speed_exp.printSchema()
 avg_speed_exp.show(5)
 ```
 
-   root
+    root
      |-- ORIGIN_AIRPORT: string (nullable = true)
      |-- DESTINATION_AIRPORT: string (nullable = true)
      |-- TAIL_NUMBER: string (nullable = true)
@@ -351,7 +351,7 @@ agg_arr_time = my_spark.sql("SELECT ORIGIN_AIRPORT, DESTINATION_AIRPORT, TAIL_NU
 agg_arr_time.show(5)
 ```
 
-   [Table(name='flights_temp', database=None, description=None, tableType='TEMPORARY', isTemporary=True)]
+    [Table(name='flights_temp', database=None, description=None, tableType='TEMPORARY', isTemporary=True)]
     +--------------+-------------------+-----------+------------------+
     |ORIGIN_AIRPORT|DESTINATION_AIRPORT|TAIL_NUMBER|         avg_speed|
     +--------------+-------------------+-----------+------------------+
@@ -381,7 +381,7 @@ liệu và Estimator ước lượng mô hình dự báo.
 flights.printSchema()
 ```
 
-   root
+    root
      |-- YEAR: string (nullable = true)
      |-- MONTH: string (nullable = true)
      |-- DAY: string (nullable = true)
@@ -463,7 +463,7 @@ model_data = model_data.withColumn("DAY_OF_WEEK", model_data.DAY_OF_WEEK.cast("i
 model_data.printSchema()
 ```
 
-   root
+    root
      |-- ARRIVAL_DELAY: string (nullable = true)
      |-- ARRIVAL_TIME: integer (nullable = true)
      |-- MONTH: integer (nullable = true)
